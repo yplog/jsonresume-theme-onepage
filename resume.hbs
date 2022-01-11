@@ -145,6 +145,35 @@
   <div class='sectionLine'></div>
 	{{/if}}
 
+  {{#if resume.certificates.length}}
+	<div id='awards' class="sectionBlock">
+    <div class='sectionName'>
+      <span>CERTIFICATES</span>
+    </div>
+    <div class='sectionContent'>
+      {{#each resume.certificates}}
+      <div class='blockHeader'>
+        <span class='title'>
+          {{#if title}}{{title}}{{/if}}{{#if awarder}}, {{awarder}}{{/if}}
+        </span>
+        {{#if date}}
+        <span class='date'>
+          <span class='date'>{{date}}</span>
+        </span>
+        {{/if}}
+      </div>
+      {{#if summary}}
+      <ul class='highlights'>
+        <li>{{summary}}</li>
+      </ul>
+      {{/if}}
+      {{#unless @last}}<div class='separator'></div>{{/unless}}
+      {{/each}}
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+	{{/if}}
+
 	{{#if resume.awards.length}}
 	<div id='awards' class="sectionBlock">
     <div class='sectionName'>
@@ -306,7 +335,7 @@
       {{/each}}
       ]</em></span><!--
       {{/if}}
-      -->{{#unless @last}}<span>, </span>{{/unless}}
+      -->{{#unless @last}} <br /> {{/unless}}
       {{/each}}
     </div>
     <div class='sectionLine'></div>

@@ -1,114 +1,107 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
+    "name": "Yalın Pala",
+    "label": "Software Developer",
     "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "yalinpala@protonmail.com",
+    "phone": "+90 (542) 523 18 27",
+    "website": "https://yalinpala.dev",
+    "summary": "Software Developer with hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages.",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "city": "Ankara",
+      "countryCode": "Turkey"
     },
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
+        "url": "https://yalinpala.dev",
+        "network": "https://yalinpala.dev"
       },
       {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "url": "https://github.com/yplog",
+        "network": "https://github.com/yplog"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Anayurt Teknoloji",
+      "position": "Software Developer",
+      "website": "https://www.anayurtteknoloji.com/",
+      "startDate": "Apr 2021",
+      "endDate": "Present",
+      "summary": "I work as a Backend, Frontend, Mobile and Full Stack developer in various projects.",
       "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
+        { "text": "In the Backend, I usually work with Mongodb or Postgresql as a database. Besides, I work with Express and Nest.", "comment": "TypeScript, Nodejs, Postgresql, MongoDB" },
+        { "text": "In the Frontend, I work with React, Nextjs", "comment": "Javascript, React, Nextjs" },
+        { "text": "We use Jira and Git for job tracking and Agile methodology.", "comment": "Jira, Git, Agile, Docker" }
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
+      "company": "NYKS Software",
+      "position": "Software Developer",
+      "website": "https://nykssoft.com/",
+      "startDate": "Jan 2020",
+      "endDate": "Apr 2021",
+      "summary": "I worked as a Full Stack developer.",
+      "details": [
+        { "text": "I used React, React Native and Nodejs extensively in our projects.", "comment": "React, React Native, Nodejs, Docker" }
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Software Developer",
+      "startDate": "Jan 2019",
+      "endDate": "Jan 2020",
+      "summary": "I have worked in a wide variety of projects.",
+      "details": [
+        { "text": "Technologies I generally use:", "comment": "React, React Native, Ruby on Rails, MongoDB, PostgreSQL, Nodejs." }
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
-      ]
+      "institution": "Marmara University",
+      "area": "Engineering/Industrial Management",
+      "studyType": "Master's Degree",
+      "startDate": "2021",
+      "endDate": "2023"
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
-      ]
+      "institution": "Bartın University",
+      "area": "Material Engineering",
+      "studyType": "Bachelor of Engineering - BE",
+      "startDate": "2011",
+      "endDate": "2018"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Information Technologies Certificate, METU",
+      "date": "2018",
+      "summary": "Computer systems and constructions, Programming with Java, Operating systems, Data structures and algorithms, Database systems, Software Engineering"
+    },
+    {
+      "title": "Microsoft Certificate Of Achievment, Bilge Adam",
+      "date": "2019",
+      "summary": ".NET development fundamentals, Programming in C#, SQL Server, ASP.NET Api/MVC, Angular, Cordova"
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Intermediate, B1"
+    },
+    {
+      "language": "Turkish",
       "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Organizations",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Free Software Foundation - Member - Dec 2015",
+        "Perl Mongers Ankara - Founder - Jan 2015"
       ]
     }
   ]
