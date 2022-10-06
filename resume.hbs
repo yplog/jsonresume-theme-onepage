@@ -44,7 +44,7 @@
         {{#each profiles}}
           {{#if url}}
             <span class='url'>
-              <a href='{{url}}'>{{network}}</a>
+              <a href='{{url}}'>{{network}}</a> {{#if username}}{{username}}{{/if}}
             </span>
             {{#unless @last}}<span class='divider'>|</span>{{/unless}}
           {{/if}}
